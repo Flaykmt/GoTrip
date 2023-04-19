@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoTrip</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav container">
+        <img src="src/assets/svg/logo.svg" alt="" class="logo" />
+        <div class="header__nav-list">
+          <a href="#about">About us</a>
+          <a href="#catalog">Catalog</a>
+          <a href="#contact">Contacts</a>
+        </div>
+        <form class="header__nav-input">
+          <input type="search" placeholder="Search" />
+          <a href="">Search</a>
+        </form>
+      </nav>
+      <div class="burger__menu">
+        <img src="./src/assets/svg/logo.svg" alt="" class="burger-logonone">
+        <button id="burger-btn" class="menu">
+          <svg viewBox="0 0 64 48">
+              <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+              <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+              <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+          </svg>
+        </button>
+        <ul id="nav" class="burger__menu-list">
+          <a href="#about">About us</a>
+          <a href="#catalog">Catalog</a>
+          <a href="#contact">Contacts</a>
+          <form class="header__nav-input">
+            <input type="search" placeholder="Search" required/>
+            <a href="">Search</a>
+          </form>
+        </ul>
+      </div>
+      <div class="header-content">
+        <h1>GoTrip</h1>
+        <p>travel comfortably with us</p>
+        <a href="">More</a>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section id="about" class="about">
+        <h2 class="main-title">About us</h2>
+        <div class="about__content">
+          <img src="src/assets/img/about__img.png" alt="" />
+          <p>
+            Go trip - a store for lovers of outdoor activities. Here you will
+            find everything you need for a safe trip to nature, climbing
+            mountains and much more. We have been working since 2003, we provide
+            everything necessary for large expeditions, small groups of
+            tourists, as well as those who just like to travel in comfort.
+            <br /><br />
+            Safety is above all! Before you go hiking, you need to protect
+            yourself from injury, overheating or frostbite, which is why special
+            equipment is needed.
+          </p>
+        </div>
+      </section>
+
+      <section class="catalog">
+        <h2 class="main-title">Catalog</h2>
+        <div class="catalog__content">
+          <a href="##" class="catalog__content-card">
+            <div class="catalog__content-cardImg">
+              <img src="src/assets/img/catalog-img1.png" alt="">
+            </div>
+            <p>Сlothes</p>
+          </a>
+          <a href="##" class="catalog__content-card">
+            <div class="catalog__content-cardImg">
+              <img src="src/assets/img/catalog-img2.png" alt="">
+            </div>
+            <p>Shoes</p>
+          </a>
+          <a href="##" class="catalog__content-card">
+            <div class="catalog__content-cardImg">
+              <img src="src/assets/img/catalog-img3.png" alt="">
+            </div>
+            <p>Tents</p>
+          </a>
+          <a href="##" class="catalog__content-card">
+            <div class="catalog__content-cardImg">
+              <img src="src/assets/img/catalog-img4.png" alt="">
+            </div>
+            <p>Backpacks</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2 class="main-title">Contacts</h2>
+        <div class="contact__content">
+          <p>
+            Сontact us for details of product availability, you can also <br />
+            arrange delivery.
+          </p>
+          <div class="contact-left">
+            <a href="tel:+444755662454">+4447 5566 2454</a>
+            <a href="##">gotrip@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content container">
+        <nav>
+          <a href="#about">About us</a>
+          <a href="#catalog">Catalog</a>
+          <a href="#contact">Contacts</a>
+        </nav>
+        <p>All rigts reserved 2022</p>
+      </div>
+    </footer>
+
+    <script type="module" src="src/js/main.js"></script>
+    <script type="module" src="src/js/burger-menu.js"></script>
+  </body>
+</html>
